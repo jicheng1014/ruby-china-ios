@@ -1,0 +1,7 @@
+before_deploy:
+  - rvm use system
+  - gem install fir-cli
+deploy:
+  - provider: script
+    script: fir_deploy.sh
+    skip_cleanup: true
