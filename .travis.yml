@@ -1,4 +1,4 @@
-language: ruby
+language: swift
 
 before_deploy:
   - rvm use 2.2.0
