@@ -1,5 +1,5 @@
 before_deploy:
-  - rvm use system
+  - rvm use 2.2
   - gem install fir-cli
 deploy:
   - provider: script
